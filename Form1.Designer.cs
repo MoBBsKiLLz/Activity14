@@ -36,8 +36,8 @@
             this.pictureNoRadioButton = new System.Windows.Forms.RadioButton();
             this.pictureGroupBox = new System.Windows.Forms.GroupBox();
             this.infoGroupBox = new System.Windows.Forms.GroupBox();
-            this.colorCheckBox = new System.Windows.Forms.CheckBox();
             this.typeCheckBox = new System.Windows.Forms.CheckBox();
+            this.colorCheckBox = new System.Windows.Forms.CheckBox();
             this.fruitPictureBox = new System.Windows.Forms.PictureBox();
             this.fruitPictureList = new System.Windows.Forms.ImageList(this.components);
             this.infoOutputLabel = new System.Windows.Forms.Label();
@@ -115,16 +115,6 @@
             this.infoGroupBox.TabStop = false;
             this.infoGroupBox.Text = "Information";
             // 
-            // colorCheckBox
-            // 
-            this.colorCheckBox.AutoSize = true;
-            this.colorCheckBox.Location = new System.Drawing.Point(6, 19);
-            this.colorCheckBox.Name = "colorCheckBox";
-            this.colorCheckBox.Size = new System.Drawing.Size(50, 17);
-            this.colorCheckBox.TabIndex = 6;
-            this.colorCheckBox.Text = "Color";
-            this.colorCheckBox.UseVisualStyleBackColor = true;
-            // 
             // typeCheckBox
             // 
             this.typeCheckBox.AutoSize = true;
@@ -134,6 +124,16 @@
             this.typeCheckBox.TabIndex = 7;
             this.typeCheckBox.Text = "Type";
             this.typeCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // colorCheckBox
+            // 
+            this.colorCheckBox.AutoSize = true;
+            this.colorCheckBox.Location = new System.Drawing.Point(6, 19);
+            this.colorCheckBox.Name = "colorCheckBox";
+            this.colorCheckBox.Size = new System.Drawing.Size(50, 17);
+            this.colorCheckBox.TabIndex = 6;
+            this.colorCheckBox.Text = "Color";
+            this.colorCheckBox.UseVisualStyleBackColor = true;
             // 
             // fruitPictureBox
             // 
@@ -196,7 +196,7 @@
             this.Controls.Add(this.fruitsLabel);
             this.Controls.Add(this.fruitsListBox);
             this.Name = "fruitForm";
-            this.Text = "Fruit Info";
+            this.Text = "Fruit Information";
             this.pictureGroupBox.ResumeLayout(false);
             this.pictureGroupBox.PerformLayout();
             this.infoGroupBox.ResumeLayout(false);
